@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-13T11:18:48 IST" name="Suite" finished-at="2024-01-13T11:20:56 IST" duration-ms="128302">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.SubmitOrder(java.util.HashMap)[pri:0, instance:tests.SubmitOrderTest@1fa121e2]" name="SubmitOrder" class="tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+      <group name="ErrorHandling">
+        <method signature="LoginErrorMessageTest.LoginErrorValidation()[pri:0, instance:tests.LoginErrorMessageTest@3eb738bb]" name="LoginErrorValidation" class="tests.LoginErrorMessageTest"/>
+        <method signature="ProductErrorTest.ProductErrorValidation()[pri:0, instance:tests.ProductErrorTest@4116aac9]" name="ProductErrorValidation" class="tests.ProductErrorTest"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2024-01-13T11:18:48 IST" name="Test" finished-at="2024-01-13T11:20:56 IST" duration-ms="128302">
+      <class name="tests.ProductErrorTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.ProductErrorTest@4116aac9]" started-at="2024-01-13T11:20:33 IST" name="launchApplication" finished-at="2024-01-13T11:20:34 IST" duration-ms="1627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:tests.ProductErrorTest@4116aac9]" started-at="2024-01-13T11:20:34 IST" name="ProductErrorValidation" finished-at="2024-01-13T11:20:56 IST" duration-ms="21561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.ProductErrorTest@4116aac9]" started-at="2024-01-13T11:20:56 IST" name="teardown" finished-at="2024-01-13T11:20:56 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.ProductErrorTest -->
+      <class name="tests.LoginErrorMessageTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.LoginErrorMessageTest@3eb738bb]" started-at="2024-01-13T11:18:48 IST" name="launchApplication" finished-at="2024-01-13T11:18:49 IST" duration-ms="1371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:tests.LoginErrorMessageTest@3eb738bb]" started-at="2024-01-13T11:18:49 IST" name="LoginErrorValidation" finished-at="2024-01-13T11:19:08 IST" duration-ms="18449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginErrorMessageTest@3eb738bb]" started-at="2024-01-13T11:19:08 IST" name="teardown" finished-at="2024-01-13T11:19:08 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginErrorMessageTest -->
+      <class name="tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.SubmitOrderTest@1fa121e2]" started-at="2024-01-13T11:19:08 IST" name="launchApplication" finished-at="2024-01-13T11:19:09 IST" duration-ms="925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:tests.SubmitOrderTest@1fa121e2]" started-at="2024-01-13T11:19:09 IST" name="SubmitOrder" data-provider="getdata" finished-at="2024-01-13T11:19:31 IST" duration-ms="22534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userId=anshika@gmail.com, password=Iamking@000, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:tests.SubmitOrderTest@1fa121e2]" started-at="2024-01-13T11:19:31 IST" name="SubmitOrder" data-provider="getdata" finished-at="2024-01-13T11:19:53 IST" duration-ms="21976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userId=satishraja@gmail.com, password=Raja1234, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SubmitOrderTest@1fa121e2]" started-at="2024-01-13T11:19:53 IST" name="teardown" finished-at="2024-01-13T11:19:53 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.SubmitOrderTest -->
+      <class name="tests.OrderDisplayTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.OrderDisplayTest@7eac9008]" started-at="2024-01-13T11:19:53 IST" name="launchApplication" finished-at="2024-01-13T11:19:55 IST" duration-ms="1755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="VerifyOrderdisplay(java.util.HashMap)[pri:0, instance:tests.OrderDisplayTest@7eac9008]" started-at="2024-01-13T11:19:55 IST" name="VerifyOrderdisplay" data-provider="getdata" finished-at="2024-01-13T11:20:14 IST" duration-ms="18741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userId=anshika@gmail.com, password=Iamking@000, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOrderdisplay -->
+        <test-method signature="VerifyOrderdisplay(java.util.HashMap)[pri:0, instance:tests.OrderDisplayTest@7eac9008]" started-at="2024-01-13T11:20:14 IST" name="VerifyOrderdisplay" data-provider="getdata" finished-at="2024-01-13T11:20:33 IST" duration-ms="18671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userId=satishraja@gmail.com, password=Raja1234, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyOrderdisplay -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.OrderDisplayTest@7eac9008]" started-at="2024-01-13T11:20:33 IST" name="teardown" finished-at="2024-01-13T11:20:33 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.OrderDisplayTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
