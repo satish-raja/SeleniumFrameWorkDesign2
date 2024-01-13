@@ -34,7 +34,16 @@ public class DockerSetUp {
             e.printStackTrace();
         }
         // Sleep for a short duration if needed
+        System.out.println("1");
         Thread.sleep(30000);
+        System.out.println("2");
+        Thread.sleep(30000);
+        System.out.println("3");
+        Thread.sleep(30000);
+        System.out.println("4");
+        Thread.sleep(30000);
+        System.out.println("5");
+        Thread.sleep(30000);        
 
         // Terminate any remaining cmd.exe processes
         try {
