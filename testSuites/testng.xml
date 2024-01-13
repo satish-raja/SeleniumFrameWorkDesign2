@@ -7,6 +7,7 @@
       <class name="tests.SubmitOrderTest"/>
       <class name="tests.OrderDisplayTest"/>
       <class name="tests.ProductErrorTest"/>
+      <class name="tests.DockerSetUp"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
