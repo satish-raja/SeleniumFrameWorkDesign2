@@ -18,5 +18,6 @@ public class OrderDisplayTest extends BaseTest2 {
 			OrdersPage ordersPage = productCatalogue.goToOrdersPage();
 			Assert.assertTrue(ordersPage.VerifyOrderdisplay(input.get("productName")));
 			landingPage.SignOut();
+			System.out.println("Order Display Verification Completed");
 		}
 }

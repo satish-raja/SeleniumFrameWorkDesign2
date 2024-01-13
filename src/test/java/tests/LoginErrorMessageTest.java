@@ -13,6 +13,7 @@ public class LoginErrorMessageTest extends BaseTest2 {
 		Thread.sleep(15000);
 		landingPage.LoginApplication("satisraja@gmail.com", "Raja1234");
 		Assert.assertEquals("Incorrect email or password.", landingPage.getLoginErrorMessage());
+		System.out.println("Login Error Message Verfication Completed");
 	}
 
 }

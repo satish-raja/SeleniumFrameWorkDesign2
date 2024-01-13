@@ -17,6 +17,7 @@ public class ProductErrorTest extends BaseTest2 {
 		CartPage cartPage = productCatalogue.goToCart();
 		Boolean match = cartPage.VerifyProductdisplay(productName);
 		Assert.assertTrue(match);
+		System.out.println("Product Error Validation Completed");
 	}
 
 }

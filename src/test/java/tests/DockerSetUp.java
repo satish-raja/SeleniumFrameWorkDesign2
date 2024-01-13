@@ -18,6 +18,7 @@ public class DockerSetUp {
              } catch (IOException e) {
             e.printStackTrace();
              }
+        System.out.println("Docker SetUp Process Completed");
     }
 		
     @AfterTest
@@ -33,7 +34,7 @@ public class DockerSetUp {
             e.printStackTrace();
         }
         // Sleep for a short duration if needed
-//        Thread.sleep(30000);
+        Thread.sleep(30000);
 
         // Terminate any remaining cmd.exe processes
         try {
@@ -42,5 +43,6 @@ public class DockerSetUp {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println("Docker Process Closed");
     }
 }
