@@ -34,6 +34,14 @@ public class DockerSetUp {
             e.printStackTrace();
         }
         // Sleep for a short duration if needed
+        Thread.sleep(30000);
+        // Terminate any remaining cmd.exe processes
+        try {
+            Process killProcess = new ProcessBuilder("taskkill", "/f", "/im", "cmd.exe").start();
+            killProcess.waitFor(); // Wait for the process to finish
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         System.out.println("1");
         Thread.sleep(30000);
         System.out.println("2");
@@ -43,15 +51,7 @@ public class DockerSetUp {
         System.out.println("4");
         Thread.sleep(30000);
         System.out.println("5");
-        Thread.sleep(30000);        
-
-        // Terminate any remaining cmd.exe processes
-        try {
-            Process killProcess = new ProcessBuilder("taskkill", "/f", "/im", "cmd.exe").start();
-            killProcess.waitFor(); // Wait for the process to finish
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        Thread.sleep(30000);   
         System.out.println("Docker Process Closed");
     }
 }
