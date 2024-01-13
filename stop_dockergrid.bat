@@ -1,2 +1,2 @@
-cd C:\Users\admin\eclipse-workspace\sdet
+cd C:\Users\satis\eclipse-workspace\SeleniumFrameWorkDesign2
 docker-compose down
