@@ -3,11 +3,11 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="tests.LoginErrorMessageTest"/>
-      <class name="tests.SubmitOrderTest"/>
-      <class name="tests.OrderDisplayTest"/>
-      <class name="tests.ProductErrorTest"/>
-      <class name="tests.DockerSetUp"/>
+		    <class name="tests.LoginErrorMessageTest"/>
+      		<class name="tests.SubmitOrderTest"/>
+      		<class name="tests.OrderDisplayTest"/>
+      		<class name="tests.ProductErrorTest"/>
+            <class name="tests.DockerSetUp"/>      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

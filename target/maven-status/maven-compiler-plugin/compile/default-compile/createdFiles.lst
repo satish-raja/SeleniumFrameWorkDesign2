@@ -1,0 +1,8 @@
+abstractComponents\BasePage.class
+pageObjects\LandingPage.class
+pageObjects\OrdersPage.class
+pageObjects\PaymentPage.class
+pageObjects\CartPage.class
+pageObjects\OrderConfirmationPage.class
+pageObjects\ProductCatalogue.class
+resources\ExtentReporterNG.class

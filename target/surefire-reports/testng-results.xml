@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-14T06:17:07 IST" name="Suite" finished-at="2024-01-14T06:19:22 IST" duration-ms="135083">
+    <groups>
+    </groups>
+    <test started-at="2024-01-14T06:17:07 IST" name="Test" finished-at="2024-01-14T06:19:22 IST" duration-ms="135083">
+      <class name="tests.DockerSetUp">
+        <test-method is-config="true" signature="startDockergrid()[pri:0, instance:tests.DockerSetUp@6aba2b86]" started-at="2024-01-14T06:17:07 IST" name="startDockergrid" finished-at="2024-01-14T06:19:07 IST" duration-ms="120027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockergrid -->
+        <test-method is-config="true" signature="stopDockergrid()[pri:0, instance:tests.DockerSetUp@6aba2b86]" started-at="2024-01-14T06:19:07 IST" name="stopDockergrid" finished-at="2024-01-14T06:19:22 IST" duration-ms="15045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockergrid -->
+      </class> <!-- tests.DockerSetUp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
